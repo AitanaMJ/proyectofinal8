@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color:bisque;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px 25px 0 25px;
+    position: fixed;
+    z-index: 1;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
