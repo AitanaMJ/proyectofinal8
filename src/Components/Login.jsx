@@ -3,7 +3,7 @@ const Login = () => {
     return (
         <>
             <form className="login">
-                <h1 id="">LOGIN</h1>
+                <h2 id="">REGISTRARSE</h2>
 
                 <label>
                     <input placeholder="name" type="text" id="name" name="name"></input>
@@ -13,13 +13,7 @@ const Login = () => {
                     <input placeholder="email" type="text" id="email" name="email"></input>
                 </label>
 
-                <label>
-                    <input placeholder="password" type="password" id="password" name="password"></input>
-                </label>
-
-                <a href=".login">Olvidaste tu contraseña?</a>
-                <a href=".login">Registrarse</a>
-                <button type="button" class="button" id="botonLogin" >Login</button>
+                <button type="button" class="button" id="botonLogin" >ENVIAR</button>
             </form>
         </>
     );
