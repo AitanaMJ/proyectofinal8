@@ -1,22 +1,28 @@
 
-const Login = () => {
+
+import "./Styles/login.css"
+
+function Login() {
     return (
         <>
-            <form className="login">
-                <h2 id="">REGISTRARSE</h2>
+        <form class="registro">
 
                 <label>
-                    <input placeholder="name" type="text" id="name" name="name"></input>
+                    <input placeholder="nombre" type="text" id="nombre" name="nombre"></input>
                 </label>
 
                 <label>
                     <input placeholder="email" type="text" id="email" name="email"></input>
                 </label>
 
-                <button type="button" class="button" id="botonLogin" >ENVIAR</button>
+                <label>
+                    <input placeholder="mensaje" type="mensaje" id="mensaje" name="mensaje"></input>
+                </label>
+
+                <button type="button" class="button" id="botonRegistrar" >Enviar</button>
             </form>
         </>
     );
-};
+}
 
 export default Login; 

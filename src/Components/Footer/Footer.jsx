@@ -1,17 +1,16 @@
 
-import FooterBox1 from "../Footer/ComponentesFooter/FooterBox1"
-import FooterBox2 from "../Footer/ComponentesFooter/FooterBox2"
-import FooterBox3 from "../Footer/ComponentesFooter/FooterBox3"
 
-const Footer = () => {
 
+function Footer() {
     return (
         <>
-            <FooterBox1/>
-            <FooterBox2/>
-            <FooterBox3/>        
+            <div className="container__footer">
+                <div>
+                    
+                </div>
+            </div>
         </>
-    )
+    );
 }
 
 export default Footer; 

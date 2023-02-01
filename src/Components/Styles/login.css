@@ -1,0 +1,36 @@
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form button{
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 7px 30px;
+    border: solid white 2px;
+    color: rgb(208, 44, 44);
+}
+#tituloRegistro{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: white;
+}
+form label{
+    margin-bottom: 30px;
+}
+form label input{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 7px 100px 7px 7px;
+    border-radius: 10px;
+}
+form label input::placeholder{
+    color: rgba(107, 99, 89, 0.767)
+} 
+
+#mensaje {
+    height: 150px;
+}
