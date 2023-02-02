@@ -18,7 +18,7 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto1} alt="" width="300px" ></img>
-                                <h3>Recoleccion de tapitas</h3>
+                                <a href="#">Recoleccion de tapitas</a>
                             </div>
                             <div className="back face">
                                 <h3>texto</h3>
@@ -37,7 +37,7 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto2} alt="" width="300px"></img>
-                                <h3>Prevencion del cancer de mama</h3>
+                                <a href="#">Prevencion del cancer de mama</a>
                             </div>
                             <div className="back face">
                                 <h3>texto</h3>
@@ -56,7 +56,7 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto1} alt="" width="300px" ></img>
-                                <h3>texto</h3>
+                                <a href="#">texto</a>
                             </div>
                             <div className="back face">
                                 <h3>texto</h3>
@@ -75,7 +75,7 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto1} alt="" width="300px"></img>
-                                <h3>texto</h3>
+                                <a href="#">texto</a>
                             </div>
                             <div className="back face">
                                 <h3>texto</h3>

@@ -40,14 +40,14 @@
     display: none;
 }
 
-.card .front h3 {
+.card .front a {
+    text-decoration: none;
     width: 100%;
     height: 100%;
     color: #a71f1f;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 @media (min-width: 720px) {
@@ -111,7 +111,7 @@
         background-position: center center;
     }
 
-    .card .front h3 {
+    .card .front a {
         position: absolute;
         bottom: 0;
         width: 100%;
