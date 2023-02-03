@@ -1,0 +1,20 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after{
+    box-sizing: inherit;
+}
+
+.navegacionprin{
+    border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px;
+    padding: 50px 0 30px 20px;
+}
+
+.enlace {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

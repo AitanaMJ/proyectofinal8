@@ -3,8 +3,9 @@
 .footer {
     margin-top: 7rem;
     border-top-style: solid;
-    border-top-color: #cb3b58;
+    border-top-color: #D81B5B;
     border-width: 0.3rem;
+    
 }
 .grid-footer {
     margin-top: 2rem;
@@ -20,9 +21,10 @@
 .grid-footer nav a {
     display: block;
     color: black;
+    text-decoration: none;
 }
 .grid-footer nav a:hover {
-    color: #c42940;
+    color: #D81B5B;
 }
 .footer p {
     padding: 2rem 0;
@@ -34,5 +36,5 @@
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .footer p span:nth-child(2){
-    color: #cb3b58;
+    color: #D81B5B;
 }

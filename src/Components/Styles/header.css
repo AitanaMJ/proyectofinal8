@@ -1,3 +1,10 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after{
+    box-sizing: inherit;
+}
+
 h1 {
     font-size: 30px;
     color: #000;
@@ -5,4 +12,10 @@ h1 {
 
 span{
     color: #D81B5B;
+}
+
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }

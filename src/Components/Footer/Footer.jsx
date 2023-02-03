@@ -9,6 +9,7 @@ function Footer() {
                     <div>
                         <h3>Redes</h3>
                         <nav>
+                            <a href="#">Inicio</a>
                             <a href="#">Instagram</a>
                             <a href="#">Facebook</a>
                         </nav>
@@ -17,17 +18,16 @@ function Footer() {
                     <div>
                         <h3>Sobre Nosotros</h3>
                         <nav>
-                            <a href="#">Nuestra Historia</a>
-                            <a href="#">Misión, Visión y Valores</a>
+                            <a href="#">Quienes Somos</a>
+                            <a href="#">Galeria</a>
                         </nav>
                     </div>
                 
                     <div>
                         <h3>Soporte</h3>
                         <nav>
-                            <a href="#">Preguntas Frecuentes</a>
-                            <a href="#">Ayuda en Línea</a>
-                            <a href="#">Cofianza y Seguridad</a>
+                            <a href="#">Proyectos</a>
+                            <a href="#">Contacto</a>
                         </nav>
                 </div>
                 </div>
