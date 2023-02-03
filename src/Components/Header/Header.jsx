@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
             <header>
-                Rotaract Club - Juan Bautista Alberdi
+                <h1><span>Rotaract Club</span>- Juan Bautista Alberdi</h1> 
             </header>
         </>
     )
