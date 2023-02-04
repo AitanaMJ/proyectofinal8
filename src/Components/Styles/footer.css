@@ -1,10 +1,11 @@
 
 
 .footer {
-    margin-top: 7rem;
+    margin-top: 20px;
     border-top-style: solid;
     border-top-color: #D81B5B;
     border-width: 0.3rem;
+    background-color: rgb(210, 210, 210);
     
 }
 .grid-footer {

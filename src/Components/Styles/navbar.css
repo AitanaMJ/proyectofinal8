@@ -10,18 +10,23 @@ html{
     display: flex;
     justify-content: space-around;
 }
-
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
 .enlace {
     text-transform:initial;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #f3f3f3;
 }
 
 .navbar {
     border-color: #e1e1e1;
     border-top-style: solid;
     border-width: 1px;
+    background-color: rgb(24, 24, 24);
+    
 }
 
 .contenedor {

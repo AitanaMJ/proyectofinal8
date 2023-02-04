@@ -1,5 +1,5 @@
 .seccion1 {
-    background: linear-gradient(to bottom, rgb(230, 38, 38) 0%, rgb(208, 44, 44) 100%);
+    background: #D81B5B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@
     }
   
     .seccion1 {
-      background: linear-gradient(to bottom, rgb(230, 38, 38) 0%, rgb(208, 44, 44) 100%);
+      background-color: #D81B5B;
       display: flex;
       height: 500px;
       width: 100%;

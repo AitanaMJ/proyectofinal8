@@ -7,7 +7,7 @@
 .seccion4 {
     text-align: center;
     padding: 50px;
-    background-color: rgb(208, 44, 44);
+    background-color: #D81B5B;
 }
 
 .contenido__seccion4 {
@@ -23,7 +23,7 @@
 @media (min-width: 720px) {
 
     .container__seccion4 {
-        background-color: rgb(208, 44, 44);
+        background-color: #D81B5B;
     }
 
     .seccion4 {

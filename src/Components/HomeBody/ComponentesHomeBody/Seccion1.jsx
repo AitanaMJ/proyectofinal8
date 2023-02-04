@@ -7,7 +7,7 @@ import iconoPersonas from "../../../IMG/iconoCultura.png";
 const Seccion1 = () => {
     return (
         <>
-            <div className="container__seccion1">
+            <div className="container__seccion1" id="seccion1">
                 <div className="seccion1">
                     <div className="titulo__seccion1">
                         <h1>HAS QUE EL MUNDO SEA DISTINOTO</h1>
