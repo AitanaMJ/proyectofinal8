@@ -9,6 +9,15 @@ html{
     padding: 25px 0;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (min-width: 768px) { 
+    .navegacionprin {
+        flex-direction: row;
+    }
 }
 a {
     text-decoration: none;
