@@ -5,7 +5,7 @@ import "../../Styles/seccion4.css"
 const Seccion4 = () => {
     return (
         <>
-            <div className="container__seccion4">
+            <div className="container__seccion4" id="seccion4">
                 <div className="seccion4">
                     <div className="contenido__seccion4">
                         <h2>CONTACTANOS</h2>

@@ -8,7 +8,7 @@ import fotoDePresentacion3 from "../../../IMG/fotoDePresentacion3.jpeg"
 const Seccion2 = () => {
     return (
         <>
-            <div className="container__seccion2">
+            <div className="container__seccion2" id="seccion2">
                 <div className="seccion2">
                     <div className="imagen__seccion2">
                         <figure>

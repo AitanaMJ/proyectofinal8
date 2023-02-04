@@ -5,13 +5,13 @@ import '../Styles/navbar.css'
 const Navbar = () => {
     return (
         <>
-            <div className='contenedor__navbar'>
+            <div>
                 <div className="navbar">
                     <nav className="navegacionprin contenedor">
-                        <a className='#seccion1' href=".logo">Inicio</a>
-                        <a className='enlace' href=".logo">¿Quienes Somos?</a>
-                        <a className='enlace' href=".logo">Proyectos</a>
-                        <a className='enlace' href=".logo">Contacto</a>
+                        <a className='#seccion1' href="#seccion1">Inicio</a>
+                        <a className='enlace' href="#seccion2">¿Quienes Somos?</a>
+                        <a className='enlace' href="#seccion3">Proyectos</a>
+                        <a className='enlace' href="#seccion4">Contacto</a>
                     </nav>
                 </div>
             </div>

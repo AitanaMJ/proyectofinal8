@@ -9,10 +9,10 @@ import foto3 from "../../../IMG/imgwichi22.jpeg"
 const Seccion5 = () => {
     return (
         <>
-            <div className="container__seccion3">
+            <div className="container__seccion3" id="seccion3">
                 <div className="seccion3">
                     <div className="container__texto">
-                        <h2>HECHA UN VISTASO A NUESTROS PROYECTOS</h2>
+                        <h2>ECHA UN VISTASO A NUESTROS PROYECTOS</h2>
                         <p>Estos son algunos de los proyectos que realizamos de concientización,
                             limpieza, recolección de donaciones y otros objetivos dirigidos a las personas de todas
                             las edades para la mejora de nuestra ciudad y su gente</p>
@@ -21,7 +21,7 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto1} alt="" width="300px" ></img>
-                                <a href="">Recoleccion de tapitas</a>
+                                <a href="https://www.instagram.com/p/CUh7sqSJ0pa">Recoleccion de tapitas</a>
                             </div>
                             <div className="back face">
                                 <h3>Proyecto Corazon</h3>
@@ -37,7 +37,7 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto2} alt="" width="300px"></img>
-                                <a href="#">Prevencion del Cancer de mama</a>
+                                <a href="https://www.instagram.com/p/Cjv5bFLJafs">Prevencion del Cancer de mama</a>
                             </div>
                             <div className="back face">
                                 <h3>Proyecto Concientizacion</h3>
