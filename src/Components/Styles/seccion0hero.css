@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after{
+    box-sizing: inherit;
+}
+
+
+.hero {
+    background-image: url(../../IMG/imgwichihero.jpeg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
