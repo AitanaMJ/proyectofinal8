@@ -10,8 +10,8 @@ function Footer() {
                         <h3>Redes</h3>
                         <nav>
                             <a href="#">Inicio</a>
-                            <a href="#">Instagram</a>
-                            <a href="#">Facebook</a>
+                            <a href="https://www.instagram.com/rotaract.jbalberdi/" target="_blank">Instagram</a>
+                            <a href="https://www.facebook.com/rotaractclubjbalberdi" target="_blank">Facebook</a>
                         </nav>
                     </div>
                         
