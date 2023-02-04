@@ -2,6 +2,9 @@
 import "../../Styles/seccion3.css"
 import foto1 from "../../../IMG/colectaDeTapitas.jpeg"
 import foto2 from "../../../IMG/prevencionDelCancerDeMama.jpg"
+import foto3 from "../../../IMG/imgwichi22.jpeg"
+
+
 
 const Seccion5 = () => {
     return (
@@ -18,18 +21,15 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto1} alt="" width="300px" ></img>
-                                <a href="#">Recoleccion de tapitas</a>
+                                <a href="">Recoleccion de tapitas</a>
                             </div>
                             <div className="back face">
-                                <h3>texto</h3>
+                                <h3>Proyecto Corazon</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Mollitia, tenetur sint in dolor corrupti magni,
-                                    veritatis obcaecati dolores laboriosam possimus,
-                                    dicta error facere consequuntur. Repudiandae?
+                                    Reciclaje y Reutilizacion no son los unicos que nos estan salvando. Las Tapitas que eran basura, ahora se han convertido en recursos y tratamientos para niños con diagnostico de cancer y donarlos significa dar la oportunidad a otros de seguir viviendo.
                                 </p>
                                 <div>
-                                    <a href="#">ver mas</a>
+                                    <a href="https://www.instagram.com/p/CUh7sqSJ0pa" target="_blank">ver mas</a>
                                 </div>
                             </div>
                         </div>
@@ -37,15 +37,28 @@ const Seccion5 = () => {
                         <div className="card">
                             <div className="front face">
                                 <img src={foto2} alt="" width="300px"></img>
-                                <a href="#">Prevencion del cancer de mama</a>
+                                <a href="#">Prevencion del Cancer de mama</a>
                             </div>
                             <div className="back face">
-                                <h3>texto</h3>
+                                <h3>Proyecto Concientizacion</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Mollitia, tenetur sint in dolor corrupti magni,
-                                    veritatis obcaecati dolores laboriosam possimus,
-                                    dicta error facere consequuntur. Repudiandae?
+                                 Trabajamos fuertemente en la difusión del mamógrafo con el que cuenta nuestro hospital, para que más personas hagan sus controles anuales.
+                                </p>
+                                <div>
+                                    <a href="https://www.instagram.com/p/Cjv5bFLJafs" target="_blank">ver mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="front face">
+                                <img src={foto3} alt="ComunidadWichi" width="300px" ></img>
+                                <a href="#">Viaje a las Comunidades Wichi</a>
+                            </div>
+                            <div className="back face">
+                                <h3>Proyecto Comunidad Wichi</h3>
+                                <p>
+                                    Viajamos aproximadamente 1600km para ser las manos que entreguen las donaciones que nos confiaron y encomendaron entregar a quienes más las necesitan.
                                 </p>
                                 <div>
                                     <a href="#">ver mas</a>
@@ -53,43 +66,6 @@ const Seccion5 = () => {
                             </div>
                         </div>
 
-                        <div className="card">
-                            <div className="front face">
-                                <img src={foto1} alt="" width="300px" ></img>
-                                <a href="#">texto</a>
-                            </div>
-                            <div className="back face">
-                                <h3>texto</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Mollitia, tenetur sint in dolor corrupti magni,
-                                    veritatis obcaecati dolores laboriosam possimus,
-                                    dicta error facere consequuntur. Repudiandae?
-                                </p>
-                                <div>
-                                    <a href="#">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card">
-                            <div className="front face">
-                                <img src={foto1} alt="" width="300px"></img>
-                                <a href="#">texto</a>
-                            </div>
-                            <div className="back face">
-                                <h3>texto</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Mollitia, tenetur sint in dolor corrupti magni,
-                                    veritatis obcaecati dolores laboriosam possimus,
-                                    dicta error facere consequuntur. Repudiandae?
-                                </p>
-                                <div>
-                                    <a href="#">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
