@@ -3,13 +3,13 @@
 .contenedor__navbar {
     height: 8vh;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     text-align: center;
 }
 .navbar {
-    background-color: blue;
+    background-color: rgb(251, 251, 251);
     width: 1200px;
     margin: auto;
     display: flex;
@@ -26,7 +26,7 @@
     font-size: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     
 }
 
