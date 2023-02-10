@@ -50,7 +50,7 @@
     justify-content: center;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1110px) {
     .seccion3 {
         padding: 50px;
         margin: auto;

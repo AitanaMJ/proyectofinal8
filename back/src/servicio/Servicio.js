@@ -1,12 +1,12 @@
 
-const Mensajes = require("../model/Mensajes");
+const Mensaje = require("../model/Mensajes");
 
-const saveMensajeservice = async (Mensajes) => {
+const saveMensajeService = async (firstname, email, message) => {
     try {
-        await Mensajes.create({
-            nombre, 
+        await Mensaje.create({
+            firstname, 
             email, 
-            mensaje
+            message
         });
         return true;
     } catch (error) {
@@ -14,4 +14,4 @@ const saveMensajeservice = async (Mensajes) => {
     }
 }
 
-module.exports = {saveMensajeservice};
+module.exports = {saveMensajeService};

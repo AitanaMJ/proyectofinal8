@@ -1,4 +1,26 @@
 
+.container__register{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container__login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__login h3{
+    margin: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.container__register h3{
+    margin: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
 form{
     display: flex;
     align-items: center;

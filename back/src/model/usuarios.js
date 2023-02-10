@@ -2,7 +2,11 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 
-const mensajesSchema = new Schema({
+const userSchema = new Schema({
+    id:{
+        type: String,
+        required: true
+    },
     firstname:{
         type: String,
         require: true
@@ -11,10 +15,10 @@ const mensajesSchema = new Schema({
         type: String,
         required: true
     },
-    message:{
+    password:{
         type: String,
         require: true
     }
-},{collection: "mensajes"});
+},{collection: "users"});
 
-module.exports = mongoose.model("mensajes", mensajesSchema);
+module.exports = mongoose.model("user", userSchema);

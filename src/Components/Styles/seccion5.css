@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.seccion5 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    background-color: #D81B5B;
+    margin-top: 25px;
+}
+
+@media (min-width: 720px) {
+    .seccion5 {
+        display: flex;
+        flex-direction: row;
+        background-color: gray;
+    }
+}

@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { login } from "../service/apiCall";
+import { register } from "../service/apiCall";
 import "./Styles/login.css";
 
-const LogIn = () => {
+const Register = () => {
 
     const [formValues, setformValues] = useState({
+        firstname: "",
         email: "",
         password: ""
     });
@@ -18,19 +19,29 @@ const LogIn = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const loginUser = () => {
-            login(formValues).then(() => {
-                console.log("vienvenido")
-            }).catch((error) => alert("usuario no encontrado"));
+        const registerUser = () => {
+            register(formValues).then(() => {
+                console.log("usuario registrado")
+            }).catch((error) => alert("error al registrar usuario"));
         }
-        loginUser();
+        registerUser();
     }
 
     return (
         <>
-            <div className="container__login">
-                <h3>ingresar</h3>
+            <div className="container__register">
+                <h3>registrarse</h3>
                 <form className="registro" onSubmit={handleSubmit}>
+                    <label>
+                        <input
+                            placeholder="nombre"
+                            type="text"
+                            name="firstname"
+                            value={formValues.firstname}
+                            onChange={handleChange}
+                            required>
+                        </input>
+                    </label>
 
                     <label>
                         <input
@@ -62,4 +73,4 @@ const LogIn = () => {
     )
 }
 
-export default LogIn; 
+export default Register; 

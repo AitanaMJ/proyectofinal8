@@ -1,5 +1,5 @@
 
-import Login from "../../Login"
+import Message from "../../Message"
 import "../../Styles/seccion4.css"
 
 const Seccion4 = () => {
@@ -16,7 +16,7 @@ const Seccion4 = () => {
                         </p>
                     </div>
                     <div className="login__seccion4" >
-                        <Login />
+                        <Message />
                     </div>
                 </div>
             </div>
