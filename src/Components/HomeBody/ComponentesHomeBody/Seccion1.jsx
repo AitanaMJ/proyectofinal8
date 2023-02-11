@@ -22,7 +22,7 @@ const Seccion1 = () => {
                         <figure className="imagen__seccion1">
                             <img src={iconoPlaneta} alt="icono de cultura" width="60px"></img>
                         </figure>
-                        <h3>cuida tu cultura</h3>
+                        <h3>cuida tu Planeta</h3>
 
                         <figure className="imagen__seccion1">
                             <img src={iconoPersonas} alt="icono de inclusion" width="60px"></img>

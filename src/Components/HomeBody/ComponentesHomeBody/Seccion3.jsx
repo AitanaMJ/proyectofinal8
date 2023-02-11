@@ -2,7 +2,7 @@
 import "../../Styles/seccion3.css"
 import foto1 from "../../../IMG/colectaDeTapitas.jpeg"
 import foto2 from "../../../IMG/prevencionDelCancerDeMama.jpg"
-import foto3 from "../../../IMG/imgwichi22.jpeg"
+import foto3 from "../../../IMG/imgwichi222.jpeg"
 
 
 
@@ -17,56 +17,37 @@ const Seccion5 = () => {
                             limpieza, recolección de donaciones y otros objetivos dirigidos a las personas de todas
                             las edades para la mejora de nuestra ciudad y su gente</p>
                     </div>
-                    <div className="container__card">
-                        <div className="card">
-                            <div className="front face">
-                                <img src={foto1} alt="" width="300px" ></img>
-                                <a href="https://www.instagram.com/p/CUh7sqSJ0pa">Recoleccion de tapitas</a>
-                            </div>
-                            <div className="back face">
-                                <h3>Proyecto Corazon</h3>
-                                <p>
-                                    Reciclaje y Reutilizacion no son los unicos que nos estan salvando. Las Tapitas que eran basura, ahora se han convertido en recursos y tratamientos para niños con diagnostico de cancer y donarlos significa dar la oportunidad a otros de seguir viviendo.
-                                </p>
-                                <div>
-                                    <a href="https://www.instagram.com/p/CUh7sqSJ0pa" target="_blank">ver mas</a>
+                    <div className="container__cards">
+                        <div>
+                            <div class="card" >
+                                <img src={foto1} class="card-img-top" width="400px" alt="..."></img>
+                                <div class="card-body">
+                                    <h5 class="card-title">Recoleccion de tapitas</h5>
+                                    <p class="card-text">Las Tapitas que eran basura, ahora se han convertido en recursos y tratamientos para niños con diagnostico de cancer y donarlos significa dar la oportunidad a otros de seguir viviendo.</p>
+                                    <a href="https://www.instagram.com/p/CUh7sqSJ0pa" class="btn btn-primary">ver mas</a>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="card">
-                            <div className="front face">
-                                <img src={foto2} alt="" width="300px"></img>
-                                <a href="https://www.instagram.com/p/Cjv5bFLJafs">Prevencion del Cancer de mama</a>
-                            </div>
-                            <div className="back face">
-                                <h3>Proyecto Concientizacion</h3>
-                                <p>
-                                 Trabajamos fuertemente en la difusión del mamógrafo con el que cuenta nuestro hospital, para que más personas hagan sus controles anuales.
-                                </p>
-                                <div>
-                                    <a href="https://www.instagram.com/p/Cjv5bFLJafs" target="_blank">ver mas</a>
+                        <div>
+                            <div class="card" >
+                                <img src={foto2} class="card-img-top" width="400px" alt="..."></img>
+                                <div class="card-body">
+                                    <h5 class="card-title">Prevencion del Cancer de mama</h5>
+                                    <p class="card-text">Trabajamos fuertemente en la difusión del mamógrafo con el que cuenta nuestro hospital, para que más personas hagan sus controles anuales.</p>
+                                    <a href="https://www.instagram.com/p/Cjv5bFLJafs" class="btn btn-primary">ver mas</a>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="card">
-                            <div className="front face">
-                                <img src={foto3} alt="ComunidadWichi" width="300px" ></img>
-                                <a href="#">Viaje a las Comunidades Wichi</a>
-                            </div>
-                            <div className="back face">
-                                <h3>Proyecto Comunidad Wichi</h3>
-                                <p>
-                                    Viajamos aproximadamente 1600km para ser las manos que entreguen las donaciones que nos confiaron y encomendaron entregar a quienes más las necesitan.
-                                </p>
-                                <div>
-                                    <a href="#">ver mas</a>
+                        <div>
+                            <div class="card" >
+                                <img src={foto3} class="card-img-top" width="400px" alt="..."></img>
+                                <div class="card-body">
+                                    <h5 class="card-title">Viaje a las Comunidades Wichi</h5>
+                                    <p class="card-text">Viajamos aproximadamente 1600km para ser las manos que entreguen las donaciones que nos confiaron y encomendaron entregar a quienes más las necesitan.</p>
+                                    <a href="#" class="btn btn-primary">ver mas</a>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>

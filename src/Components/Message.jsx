@@ -21,7 +21,7 @@ const Message = () => {
         event.preventDefault();
         const registerMessage = () => {
             message(formValues).then(() => {
-                console.log("mensaje enviado")
+                alert("mensaje enviado");
             }).catch((error) => alert("error al enviar mensaje"));
         }
         registerMessage();

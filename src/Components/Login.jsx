@@ -20,7 +20,7 @@ const LogIn = () => {
         event.preventDefault();
         const loginUser = () => {
             login(formValues).then(() => {
-                console.log("vienvenido")
+                alert("vienvenido")
             }).catch((error) => alert("usuario no encontrado"));
         }
         loginUser();

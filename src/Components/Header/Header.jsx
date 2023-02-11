@@ -3,7 +3,7 @@ import '../Styles/header.css'
 function Header() {
     return (
         <>
-            <div className='contenedor__header'>
+            <div className='contenedor__header' id="header">
                 <header>
                     <h1 className='nombre-sitio'><span>Rotaract Club</span> Juan Bautista Alberdi</h1>
                 </header>

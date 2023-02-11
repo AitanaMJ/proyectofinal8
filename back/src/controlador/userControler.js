@@ -4,6 +4,7 @@ const { registerUserService, loginUserService } = require("../servicio/userServi
 
 const saveUserController = async (req, res) => {
   try {
+    console.log(req);
     const { firstname, email, password } = req.body;
     const response = await registerUserService(firstname, email, password);
     if (response) {
@@ -17,6 +18,7 @@ const saveUserController = async (req, res) => {
 }
 
 const loginUserController = async (req, res) => {
+ 
   const { email, password } = req.body;
   const response = await loginUserService(email, password);
   if (response !== "") {

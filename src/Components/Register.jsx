@@ -21,7 +21,7 @@ const Register = () => {
         event.preventDefault();
         const registerUser = () => {
             register(formValues).then(() => {
-                console.log("usuario registrado")
+                alert("usuario registrado")
             }).catch((error) => alert("error al registrar usuario"));
         }
         registerUser();

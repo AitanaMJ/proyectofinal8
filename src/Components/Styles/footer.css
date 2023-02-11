@@ -23,6 +23,7 @@
     display: block;
     color: black;
     text-decoration: none;
+    margin: 10px;
 }
 .grid-footer nav a:hover {
     color: #D81B5B;

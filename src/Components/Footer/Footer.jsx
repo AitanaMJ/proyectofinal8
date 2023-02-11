@@ -9,7 +9,7 @@ function Footer() {
                     <div>
                         <h3>Redes</h3>
                         <nav>
-                            <a href="#">Inicio</a>
+                            <a href="#header">Inicio</a>
                             <a href="https://www.instagram.com/rotaract.jbalberdi/" target="_blank">Instagram</a>
                             <a href="https://www.facebook.com/rotaractclubjbalberdi" target="_blank">Facebook</a>
                         </nav>
@@ -18,16 +18,16 @@ function Footer() {
                     <div>
                         <h3>Sobre Nosotros</h3>
                         <nav>
-                            <a href="#">Quienes Somos</a>
-                            <a href="#">Galeria</a>
+                            <a href="#seccion2">Quienes Somos</a>
+                            <a href="#seccion3">Proyectos</a>
+                            <a href="#seccion4">Contactanos</a>
                         </nav>
                     </div>
                 
                     <div>
                         <h3>Soporte</h3>
                         <nav>
-                            <a href="#">Proyectos</a>
-                            <a href="#">Contacto</a>
+                            <p>rotaractclub.jba@gmail.com</p>
                         </nav>
                 </div>
                 </div>
