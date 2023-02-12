@@ -1,7 +1,6 @@
 
 import '../Styles/navbar.css'
 import rotaractLogo from "../../IMG/Rotaract_RGB-EN.png"
-import iconoMenu from "../../IMG/menu.png"
 
 const Navbar = () => {
     return (

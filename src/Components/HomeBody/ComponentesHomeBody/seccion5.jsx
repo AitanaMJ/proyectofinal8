@@ -1,7 +1,9 @@
 
-import LogIn from "../../logIn";
+
 import Register from "../../Register";
 import "../../Styles/seccion5.css"
+import LogIn from "../../Login"
+
 
 
 const Seccion5 = () => {
