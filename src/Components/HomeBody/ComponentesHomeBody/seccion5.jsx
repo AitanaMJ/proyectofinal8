@@ -2,7 +2,7 @@
 
 import Register from "../../Register";
 import "../../Styles/seccion5.css"
-import LogIn from "../../Login"
+import LogIn from "../../logIn"
 
 
 
